@@ -1,12 +1,10 @@
 :root{
     --theme-color: #ff1756;
-    --theme-color1: #ff17;
-}
-*{
-    background-image: linear-gradient(to right, rgba(106, 134, 93, .8), rgb(131, 124, 194));
+    /* --theme-color1: #ff17; */
 }
 body{
     font-family: "";
+    background-image: linear-gradient(to right, rgba(106, 134, 93, .8), rgb(131, 124, 194));
 }
 .container{
     position: absolute;
@@ -18,8 +16,33 @@ body{
     width: 420px;
     height: 520px;
     background: linear-gradient(to bottom,
-     var(--theme-color1) 110px, rgba(255,255,255,.8) 110px);
+     var(--theme-color) 110px, snow 110px);
     border-radius: 10px;
-    
+    padding: 50px 0;
     box-shadow: 0 5px 15px rgba(50, 50, 50, .1);
+}
+.visitCard *{
+    text-align: center;
+    letter-spacing: .5px;
+    font-weight: 600;
+}
+img{
+    display: block;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    border-radius: 50%;
+    margin: 0 auto;
+    box-shadow: 0 0 0 8px snow;
+}
+.visitCard h4{
+    color: var(--theme-color);
+    background-color: snow;
+    font-size: 16px;
+    margin: 15px 0 5px 0;
+}
+.visitCard h5{
+    color: #555;
+    font-weight: 600;
+    font-size: 14px;
 }
