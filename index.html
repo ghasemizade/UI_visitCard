@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
     <title>visitCard</title>
 </head>
 <body>
@@ -13,21 +14,38 @@
             <img src="./images/HoseinAvatar.jpg" alt="user">
             <h4>Hosein Ghasemizade</h4>
             <h5>frontend developer</h5>
-
-            <div class="html-column">
-                <div class="details-html">
-                    <h2></h2>
-                    <span>HTML</span>
+            <div class="details">
+                <div class="phone">
+                    <div class="phone-number">
+                        <ion-icon class="phone" name="phone-portrait-outline"></ion-icon>
+                        <span>+98-911-290-7140</span>
+                    </div>
                 </div>
-            </div>
-            <div class="css-column">
-                <div class="details-css">
-                    <h2></h2>
-                    <span>CSS</span>
+                <div class="email">
+                    <div class="email-address">
+                        <ion-icon class="mail" name="mail-outline"></ion-icon>
+                        <span>ghasemizade.hosein@gmail.com</span>
+                    </div>
+                </div>
+                <div class="location">
+                    <div class="location-area">
+                        <ion-icon class="locate" name="location-outline"></ion-icon>
+                        <span>UK</span>
+                    </div>
                 </div>
             </div>
         </div>
+        <div class="themes">
+            <button class="btn btn-blue"></button>
+            <button class="btn btn-red"></button>
+            <button class="btn btn-green"></button>
+            <button class="btn btn-purple"></button>
+            <button class="btn btn-yellow"></button>
+        </div>
     </div>
     <script src="script.js"></script>
+    <!-- install icon pack -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
