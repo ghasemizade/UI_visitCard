@@ -1,5 +1,5 @@
 :root{
-    --theme-color: #8d44ad;
+    --theme-color: #3498db;
 }
 body{
     font-family: "sofia";
@@ -12,8 +12,8 @@ body{
     left: 50%;
 }
 .visitCard{
-    width: 320px;
-    height: 420px;
+    width: 390px;
+    height: 450px;
     background: linear-gradient(to bottom,
      var(--theme-color) 110px, snow 110px);
     border-radius: 10px;
@@ -95,4 +95,8 @@ ion-icon{
 }
 .btn-yellow{
     background-color: #f4b932;
+}
+.themes button.btn-blue{
+    border: 2px solid #333;
+    scale: 1.5;
 }

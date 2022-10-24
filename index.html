@@ -30,22 +30,29 @@
                 <div class="location">
                     <div class="location-area">
                         <ion-icon class="locate" name="location-outline"></ion-icon>
-                        <span>UK</span>
+                        <span>Canada-Ontario</span>
                     </div>
                 </div>
             </div>
         </div>
         <div class="themes">
-            <button class="btn btn-blue"></button>
-            <button class="btn btn-red"></button>
-            <button class="btn btn-green"></button>
-            <button class="btn btn-purple"></button>
-            <button class="btn btn-yellow"></button>
+            <button class="btn btn-blue" onclick="changeColor('#3498db')" style="--clr:#3498db;"></button>
+            <button class="btn btn-red" onclick="changeColor('#ff1756')" style="--clr:#ff1756;"></button>
+            <button class="btn btn-green" onclick="changeColor('#1cb65d')" style="--clr:#1cb65d;"></button>
+            <button class="btn btn-purple" onclick="changeColor('#8d44ad')" style="--clr:#8d44ad;"></button>
+            <button class="btn btn-yellow" onclick="changeColor('#f4b932')" style="--clr:#f4b932;"></button>
         </div>
     </div>
     <script src="script.js"></script>
     <!-- install icon pack -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script>
+        let btn = document.getElementById('btn');
+        function changeColor(color) {
+            btn = color;
+        }
+    </script>
 </body>
 </html>
