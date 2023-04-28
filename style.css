@@ -3,7 +3,7 @@
 }
 body{
     font-family: "sofia";
-    background-image: linear-gradient(to right, rgba(106, 134, 93, .8), rgb(131, 124, 194));
+    background-image: #aaa;
 }
 .container{
     position: absolute;
@@ -19,6 +19,7 @@ body{
     border-radius: 10px;
     padding: 50px 0;
     box-shadow: 0 5px 15px rgba(50, 50, 50, .1);
+    border: 2px solid #3498db;
 }
 .visitCard *{
     text-align: center;
