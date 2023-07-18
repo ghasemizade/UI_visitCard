@@ -45,12 +45,10 @@ img{
 }
 .visitCard h4{
     color: var(--theme-color);
-    background-color: snow;
     font-size: 16px;
     margin: 15px 0 5px 0;
 }
 .visitCard h5{
-    color: #555;
     font-weight: 600;
     font-size: 14px;
 }
@@ -128,8 +126,8 @@ ion-icon{
     background-color: #3498db;
     width: inherit;
     height: inherit;
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
+    border-top-right-radius: 10rem;
+    border-bottom-left-radius: 10rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
