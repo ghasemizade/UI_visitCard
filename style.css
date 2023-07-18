@@ -1,5 +1,9 @@
 :root{
-    --theme-color: #3498db;
+    --theme-color-blue: #3498db;
+    --theme-color-red: #FF1756;
+    --theme-color-green: #1CB65D;
+    --theme-color-purple: #8D44AD;
+    --theme-color-yellow: #F4B932;
 }
 body{
     font-family: "sofia";
@@ -21,8 +25,12 @@ body{
     box-shadow: 0 5px 15px rgba(50, 50, 50, .1);
     border: 2px solid #3498db;
 }
-.visitCard *{
-    text-align: center;
+.visitCard{
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     letter-spacing: .5px;
     font-weight: 600;
 }
@@ -51,19 +59,31 @@ ion-icon{
     color: var(--theme-color);
 }
 .phone{
-    padding: 10px;
-    position: relative;
-    top: 11px;
+    margin-right: 1rem;
+    margin-bottom: .5rem;
+}
+.phone-number{
+    display: flex;
+    justify-content: start;
+    align-items: center;
 }
 .mail{
-    padding: 10px;
-    position: relative;
-    top: 17px;
+    margin-right: 1rem;
+    margin-bottom: .5rem;
+}
+.email-address{
+    display: flex;
+    justify-content: start;
+    align-items: center;
 }
 .locate{
-    padding: 10px;
-    position: relative;
-    top: 11px;
+    margin-right: 1rem;
+    margin-bottom: .5rem;
+}
+.location-area{
+    display: flex;
+    justify-content: start;
+    align-items: center;
 }
 .themes{
     background-color: snow;
@@ -100,4 +120,18 @@ ion-icon{
 .themes button.btn-blue{
     border: 2px solid #333;
     scale: 1.5;
+}
+.details {
+    margin-top: 2rem;
+}
+.header{
+    background-color: #3498db;
+    width: inherit;
+    height: inherit;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

@@ -6,31 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <title>visitCard</title>
 </head>
 <body>
     <div class="container">
         <div class="visitCard">
-            <img src="./images/HoseinAvatar.jpg" alt="user">
-            <h4>Hosein Ghasemizade</h4>
-            <h5>frontend developer</h5>
+            <header class="header">
+                <img src="./images/HoseinAvatar.jpg" alt="user">
+                <h4>Hosein Ghasemizade</h4>
+                <h5>frontend developer</h5>
+            </header>
             <div class="details">
                 <div class="phone">
                     <div class="phone-number">
                         <ion-icon class="phone" name="phone-portrait-outline"></ion-icon>
-                        <span>+98-911-290-7140</span>
+                        <p>+98-911-290-7140</p>
                     </div>
                 </div>
                 <div class="email">
                     <div class="email-address">
                         <ion-icon class="mail" name="mail-outline"></ion-icon>
-                        <span>ghasemizade.hosein@gmail.com</span>
+                        <p>ghasemizade.hosein@gmail.com</p>
                     </div>
                 </div>
                 <div class="location">
                     <div class="location-area">
                         <ion-icon class="locate" name="location-outline"></ion-icon>
-                        <span>Canada-Ontario</span>
+                        <p>Canada-Ontario</p>
                     </div>
                 </div>
             </div>
@@ -44,15 +48,5 @@
         </div>
     </div>
     <script src="script.js"></script>
-    <!-- install icon pack -->
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-    <script>
-        let btn = document.getElementsByClassName("btn");
-        function changeColor(color) {
-            btn = --clr;
-        }
-    </script>
 </body>
 </html>
